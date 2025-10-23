@@ -3,7 +3,7 @@ class Solution {
         char[] temp = s.toCharArray();
         String example = "aeiouAEIOU";
         int js = temp.length-1;
-        for(int i = 0; i<temp.length-2;i++) 
+        for(int i = 0; i<temp.length-1;i++) 
         {
             char target = temp[i];
             if(example.indexOf(target) != -1)
